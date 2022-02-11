@@ -1,0 +1,26 @@
+ul{
+   margin:0px;
+   padding:0px;
+   height:37px;
+   line-height:37px;
+   background-color:back;
+   font-family:'Courier New',Courier,monosapce;
+   font-size:15px;
+}
+li{
+     float:left;
+     padding:0px 28px;
+     boder-right:1px tomato solid;
+
+}
+a{
+   color: white;
+   display: block;
+   text-decoration:none;
+}
+a:hover{
+    background-color:turquoise;
+}
+.home a{
+   background-color:turquoise;
+}
