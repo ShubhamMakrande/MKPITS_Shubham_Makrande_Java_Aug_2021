@@ -1,0 +1,17 @@
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
+
+@Entity
+@DiscriminatorValue(value = "Twow")
+public class twoWheel extends Vehi{
+    private String sthandle;
+
+
+    public String getSthandle() {
+        return sthandle;
+    }
+
+    public void setSthandle(String sthandle) {
+        this.sthandle = sthandle;
+    }
+}
